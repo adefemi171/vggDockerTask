@@ -40,7 +40,7 @@ Server used was Nginx
 ### Clone the repository 
 
 ```
-git clone https://github.com/adefemi171/recipeApp.git
+git clone https://github.com/adefemi171/vggDockerTask.git
 ```
 
 ```
