@@ -53,12 +53,12 @@ $ docker build -t <image_name> .
 Run Image using reverse proxy
 
 ```
-docker run --name <image_name_of_choice> -p 6000:80 <image_name>
+docker run --name <image_name_of_choice> -p 9900:80 <image_name>
 ```
 
 ## Open Browser and visit
 
 ```
-localhost:6000
+localhost:9900
 ```
 
