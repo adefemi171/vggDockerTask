@@ -8,11 +8,13 @@ Golang
 # Top-level directory layout
 
     📦vggDockerTask
-        📦route
-            ┣ 📜main.go
-        ┗ 📦dockerfile
-        ┗ 📦server.conf
-        ┗ 📦README.md
+        📦bin
+            ┣ 📜start.sh
+        ┗ 📜main.go
+        ┗ 📜go.mod
+        ┗ 📜dockerfile
+        ┗ 📜server.conf
+        ┗ 📜README.md
 
 ## Prerequisites
 
