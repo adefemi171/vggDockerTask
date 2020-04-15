@@ -46,12 +46,12 @@ git clone https://github.com/adefemi171/vggDockerTask.git
 Build image using
 
 ```
-$ docker build -t .
+$ docker build -t <image_name> .
 ```
 Run Image using reverse proxy
 
 ```
-docker run --name
+docker run --name <image_name_of_choice> -p 6000:80 <image_name>
 ```
 
 ## Open Browser and visit

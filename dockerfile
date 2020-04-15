@@ -14,7 +14,7 @@ FROM nginx:latest
 
 WORKDIR /app
 
-COPY --from=builder /app/simple-server .
+COPY --from=builder /app/vggTask .
 
 COPY ./bin  .
 

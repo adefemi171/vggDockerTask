@@ -1,7 +1,7 @@
 #!/bin/bash
 
-chmod +x simple-server
+chmod +x vggTask
 
 nginx
 
-./simple-server 
+./vggTask
