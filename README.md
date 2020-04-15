@@ -43,36 +43,20 @@ Server used was Nginx
 git clone https://github.com/adefemi171/vggDockerTask.git
 ```
 
-```
-$ docker build -f ./flask-app-test2/Dockerfile -t flask-app:1.0.0 .
-```
+Build image using
 
 ```
-$ docker build -f ./nginxreverseproxy/Dockerfile -t nginx-proxy:1.0.0 .
+$ docker build -t .
 ```
-
-It can be tagged as latest
-### Step two
-
-Create network
+Run Image using reverse proxy
 
 ```
-$ docker network create --driver bridge test-network
+docker run --name
 ```
 
-### Step three
-
-Run the containers
+## Open Browser and visit
 
 ```
-docker run --name flask-test-app --network test-network -d flask-app
+localhost:6000
 ```
-
-```
-docker run --name nginx-test-proxy --network test-network -d -p 6000:80 nginx-proxy
-```
-
-## Tests
-
-Visit localhost:6000
 
